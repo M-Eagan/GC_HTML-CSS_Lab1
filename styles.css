@@ -1,17 +1,15 @@
 *{
   font: garamond;
   color: white;
-  float: center;
   background-color: grey;
 }
 
 p {
-  font-weight: 100;
   font-family: 'Sunflower', sans-serif;
   display: flex;
   justify-content: center;
-  padding: 30px;
-  font-size: 25px;
+  padding: 15%;
+  font-size: 100%;
 }
 
 
@@ -33,27 +31,31 @@ a:hover {
   justify-content: space-around;
   float: center;
   width: 100%;
-  font-size: 30px;
+  font-size: 110%;
   top: 0px;
 }
 
 .listNavigation {
-  padding 100px;
+  padding 10%;
   text-align: center;
   margin: 15px;
 }
 
 .contactForm {
   margin: auto;
-  width: 300px;
-  border: 20px white;
+  width: 75%;
+  border: 2px solid white;
   display: block;
+  font-family: 'Sunflower', sans-serif;
+  padding: 20px;
+  float: center;
 }
 
 input {
   background-color: white;
   color: black;
-
+  font-family: 'Sunflower', sans-serif;
+  width: 75%;
 }
 
 
@@ -64,13 +66,7 @@ h1 {
   font-family: 'Raleway', sans-serif;
   top: 0;
   font-stretch: extra-expanded;
-  padding-top: 100px;
-}
-
-.factsAboutMe {
-  float: center;
-  display: flex;
-  flex-wrap: wrap;
+  padding-top: 20%;
 }
 
 h2 {
@@ -89,8 +85,8 @@ h2 {
 }
 
 img {
-  max-width: 250px;
-  max-height: 250px;
+  max-width: 300px;
+  max-height: 300px;
   border-radius: 15px;
   box-shadow: 10px 5px lightgrey;
 }
@@ -98,8 +94,41 @@ img {
 figcaption {
   text-align: center;
   font-family: 'Sunflower', sans-serif;
-  font-size: 15px;
+  font-size: 10%;
 }
 
+.aboutMeParagraph {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 5%;
+  padding: 10%;
+  list-style-position: inside;
+  font-size: 100%;
+}
+
+/*.meFacts {
+  font-size: 25px:
+  font-weight: bold;
+  text-emphasis: underline;
+}
+
+.favBooks {
+  font-size: 25px:
+  font-weight: bold;
+  text-emphasis: underline;
+}
+*/
+
+ul {
+  font-family: 'Sunflower', sans-serif;
+}
+
+ol {
+  font-family: 'Sunflower', sans-serif;
+}
 /*
 */
