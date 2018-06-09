@@ -8,7 +8,7 @@ p {
   font-family: 'Sunflower', sans-serif;
   display: flex;
   justify-content: center;
-  padding: 15%;
+  padding: 5%;
   font-size: 100%;
 }
 
@@ -31,7 +31,7 @@ a:hover {
   justify-content: space-around;
   float: center;
   width: 100%;
-  font-size: 110%;
+  font-size: 150%;
   top: 0px;
 }
 
@@ -45,24 +45,30 @@ a:hover {
   margin: auto;
   width: 75%;
   border: 2px solid white;
-  display: block;
+  display: flex;
+  flex-direction: column;
   font-family: 'Sunflower', sans-serif;
   padding: 20px;
-  float: center;
+  justify-content: center;
+  font-size: 155%;
 }
 
 input {
   background-color: white;
   color: black;
   font-family: 'Sunflower', sans-serif;
-  width: 75%;
+  width: 80%;
+  padding: 3%;
+  margin: 5%;
+  font-size: 100%;
+  justify-content: center;
 }
 
 
 h1 {
   text-align: center;
   font-weight: bold;
-  font-size: 75px;
+  font-size: 400%;
   font-family: 'Raleway', sans-serif;
   top: 0;
   font-stretch: extra-expanded;
@@ -71,7 +77,7 @@ h1 {
 
 h2 {
   font-family: 'Sunflower', sans-serif;
-  font-size: 40px;
+  font-size: 300%;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
@@ -79,14 +85,15 @@ h2 {
 
 .portfolioImages {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 100%;
+  max-height: 100%;
   border-radius: 15px;
   box-shadow: 10px 5px lightgrey;
 }
@@ -94,41 +101,31 @@ img {
 figcaption {
   text-align: center;
   font-family: 'Sunflower', sans-serif;
-  font-size: 10%;
+  font-size: 250%;
+  padding-bottom: 15%;
 }
 
 .aboutMeParagraph {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
-  width: 100%;
-  height: 5%;
-  padding: 10%;
-  list-style-position: inside;
-  font-size: 100%;
 }
-
-/*.meFacts {
-  font-size: 25px:
-  font-weight: bold;
-  text-emphasis: underline;
-}
-
-.favBooks {
-  font-size: 25px:
-  font-weight: bold;
-  text-emphasis: underline;
-}
-*/
 
 ul {
   font-family: 'Sunflower', sans-serif;
+  border: 2px white solid;
+  text-align: center;
+  list-style-position: inside;
+  font-size: 130%;
 }
 
 ol {
   font-family: 'Sunflower', sans-serif;
+  border: 2px white solid;
+  text-align: center;
+  list-style-position: inside;
+  font-size: 130%;
 }
 /*
 */
