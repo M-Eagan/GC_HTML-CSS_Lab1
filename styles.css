@@ -1,4 +1,95 @@
 *{
   font: garamond;
-  background-color: #f0f0f5;
+  color: white;
+  float: center;
+  background-color: grey;
+}
+
+p {
+  font-weight: 100;
+  font-family: 'Sunflower', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+
+a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.navigation {
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  font-family: 'Sunflower', sans-serif;
+  float: center;
+
+}
+
+.listNavigation {
+  display: inline-block;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-left: 0;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 20px;
+  border-color: white;
+  margin: auto;
+}
+
+.contactForm {
+  margin: auto;
+  width: 300px;
+  border: 20px white;
+  display: block;
+}
+
+input {
+  background-color: white;
+  color: black;
+
+}
+
+/*body {
+  background-image: url("outdoorLaptopPic.jpg");
+  background-size: 1250px;
+  background-repeat: no-repeat;
+}
+*/
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  top: 0;
+}
+
+.factsAboutMe {
+  float: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-family: 'Sunflower', sans-serif;
+  font-size-adjust: auto;
+  font-weight: bold;
+  text-align: center;
+}
+
+.portfolioImages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+img {
+  max-width: 250px;
+  max-height: 250px;
 }
