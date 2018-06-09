@@ -10,7 +10,8 @@ p {
   font-family: 'Sunflower', sans-serif;
   display: flex;
   justify-content: center;
-  padding: 50px;
+  padding: 30px;
+  font-size: 25px;
 }
 
 
@@ -20,25 +21,26 @@ a:hover {
 }
 
 .navigation {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   position: fixed;
-  top: 0;
   font-family: 'Sunflower', sans-serif;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   float: center;
-
+  width: 100%;
+  font-size: 30px;
+  top: 0px;
 }
 
 .listNavigation {
-  display: inline-block;
-  display: flex;
-  flex-wrap: nowrap;
-  padding-left: 0;
-  padding-right: 20px;
-  padding-bottom: 20px;
+  padding 100px;
   text-align: center;
-  border: 20px;
-  border-color: white;
-  margin: auto;
+  margin: 15px;
 }
 
 .contactForm {
@@ -54,19 +56,15 @@ input {
 
 }
 
-/*body {
-  background-image: url("outdoorLaptopPic.jpg");
-  background-size: 1250px;
-  background-repeat: no-repeat;
-}
-*/
 
 h1 {
   text-align: center;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 75px;
   font-family: 'Raleway', sans-serif;
   top: 0;
+  font-stretch: extra-expanded;
+  padding-top: 100px;
 }
 
 .factsAboutMe {
@@ -77,19 +75,31 @@ h1 {
 
 h2 {
   font-family: 'Sunflower', sans-serif;
-  font-size-adjust: auto;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
+  text-decoration: underline;
 }
 
 .portfolioImages {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 img {
   max-width: 250px;
   max-height: 250px;
+  border-radius: 15px;
+  box-shadow: 10px 5px lightgrey;
 }
+
+figcaption {
+  text-align: center;
+  font-family: 'Sunflower', sans-serif;
+  font-size: 15px;
+}
+
+/*
+*/
